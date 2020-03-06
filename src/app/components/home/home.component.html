@@ -1,0 +1,30 @@
+<div class="container">
+  <p class="intro">
+    I am a huge fan of graphics programming, however, I have
+    very little knowledge of it. I try to play with graphics whenever
+    I feel like simulating something or the other.
+  </p>
+
+  <p class="my-work">
+    So, I thought of giving 'Game development' a shot, and what do you
+    know, it was a mind blowing experience. I have developed a few
+    arcade-style games. I hope you like them.
+  </p>
+
+  <blockquote class="quote">
+    "Math is fun, not when you understand it, but when you see how
+    beautiful it is."
+  </blockquote>
+
+  <div class="fractal-components">
+    <div
+      class="card" [routerLink]="component.link"
+      *ngFor="let component of gamesComponents"
+    >
+      <img [src]="component.image" [alt]="component.title"
+           class="card-image">
+      <div class="separator"></div>
+      <p class="card-title">{{ component.title }}</p>
+    </div>
+  </div>
+</div>

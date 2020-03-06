@@ -4,7 +4,7 @@
 <p align="center">
   I love to manipulate graphics using code. So, I decide to give 'Game 
   development' as shot. It turned out to be fun. I hope you like the games 
-  that I have make and please do drop a message for any sort of feedback.
+  that I have made and please do drop a message for any sort of feedback.
   My email is: vighnesh.raut13@gmail.com
   <a href="https://vighnesh153-canvas.github.io/games/">Live demo</a>
 </p>

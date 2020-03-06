@@ -1,5 +1,6 @@
 .container {
   width: 80%;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -47,6 +48,7 @@
 
   .card-image {
     height: 170px;
+    width: 240px;
   }
 
   .separator {

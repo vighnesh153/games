@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  games: {
+    components: [
+      {
+        title: 'Pong',
+        link: '/pong',
+        image: 'assets/images/pong.jpg'
+      }
+    ]
+  }
 };
 
 /*

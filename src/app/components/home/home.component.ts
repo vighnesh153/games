@@ -5,6 +5,7 @@ import {
 } from '@angular/core';
 
 import { UtilityService } from '../../services/utility.service';
+import { environment } from '@games-environments/environment';
 
 @Component({
   selector: 'app-home',
@@ -18,7 +19,9 @@ export class HomeComponent implements OnInit, OnDestroy {
     image: string
   }[];
 
-  constructor(private utilityService: UtilityService) { }
+  constructor(private utilityService: UtilityService) {
+    this.gamesComponents = environment.games.components;
+  }
 
   ngOnInit(): void {
     this.utilityService.displayBackButton.next(false);

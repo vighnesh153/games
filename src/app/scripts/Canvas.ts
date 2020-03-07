@@ -2,6 +2,10 @@ export class Canvas {
   private canvas = null;
   private canvasContext = null;
 
+  get getBoundingClientRect() {
+    return this.canvas.getBoundingClientRect();
+  }
+
   get width(): number {
     return this.canvas.width;
   }
@@ -80,6 +84,8 @@ export class Canvas {
 
   writeText(text: string, x: number, y: number, fontSize: number, color: string) {
     this.canvasContext.fillStyle = color;
+    const fontArgs = this.canvasContext.font.split(' ');
+    this.canvasContext.font = `${fontSize}px ${fontArgs[1]}`;
     this.canvasContext.fillText(text, x, y);
   }
 }

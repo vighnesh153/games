@@ -11,7 +11,10 @@ import { Pong } from './pong.logic';
 @Component({
   selector: 'app-pong',
   templateUrl: './pong.component.html',
-  styleUrls: ['./pong.component.scss']
+  styleUrls: [
+    './pong.component.scss',
+    '../common-game-styling.scss'
+  ]
 })
 export class PongComponent implements OnInit, AfterViewInit, OnDestroy {
   title = 'Pong';

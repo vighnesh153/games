@@ -10,6 +10,11 @@ export const environment = {
         title: 'Pong',
         link: '/pong',
         image: 'assets/images/pong.jpg'
+      },
+      {
+        title: 'Flappy Block',
+        link: '/flappy-block',
+        image: 'assets/images/flappy-block.png'
       }
     ]
   }

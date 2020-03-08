@@ -8,6 +8,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { PongComponent } from './games/pong/pong.component';
 import { FlappyBlockComponent } from './games/flappy-block/flappy-block.component';
 import { SnakeComponent } from './games/snake/snake.component';
+import { BrickBreakerComponent } from './games/brick-breaker/brick-breaker.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SnakeComponent } from './games/snake/snake.component';
     NavComponent,
     PongComponent,
     FlappyBlockComponent,
-    SnakeComponent
+    SnakeComponent,
+    BrickBreakerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="title">{{ title }}</div>
+  <div class="canvas">
+    <canvas width="600" height="400" #canvas
+            tabindex="1" autofocus
+            (keyup.enter)="onEnterPress()"
+            (mousemove)="onHover($event)"
+    >
+      Sorry. This browser doesn't support the game requirements.
+    </canvas>
+  </div>
+</div>

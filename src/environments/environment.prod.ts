@@ -16,6 +16,11 @@ export const environment = {
         title: 'Snake',
         link: '/snake',
         image: 'assets/images/snake.png'
+      },
+      {
+        title: 'Brick Breaker',
+        link: '/brick-breaker',
+        image: 'assets/images/brick-breaker.png'
       }
     ]
   }

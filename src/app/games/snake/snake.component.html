@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="title">{{ title }}</div>
+  <div class="canvas">
+    <canvas width="600" height="400" #canvas
+            tabindex="1" autofocus
+            (keyup.enter)="onEnterPress()"
+            (keydown.arrowDown)="onDownPress()"
+            (keydown.s)="onDownPress()"
+            (keydown.arrowUp)="onUpPress()"
+            (keydown.w)="onUpPress()"
+            (keydown.arrowLeft)="onLeftPress()"
+            (keydown.a)="onLeftPress()"
+            (keydown.arrowRight)="onRightPress()"
+            (keydown.d)="onRightPress()"
+    >
+      Sorry. This browser doesn't support the game requirements.
+    </canvas>
+  </div>
+</div>
